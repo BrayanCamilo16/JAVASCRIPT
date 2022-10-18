@@ -1,0 +1,43 @@
+#caja{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    background: rgba(5,7,12,0.5);
+}
+.yoo{
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    text-align: center;
+}
+.yoo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 2px #5D00FF;
+}
+.yoo img:hover{
+    transform: scale(1.1);
+}
+.personales, .personales2{
+    list-style: none;
+    padding: 100px 0;
+    background: #5D00FF;
+    margin: 200px 0;
+}
+.personales li, .personales2 li{
+    padding: 20px 70px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.personales{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.personales2{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

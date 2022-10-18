@@ -1,0 +1,40 @@
+h1{
+    position: relative;
+    top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.todito{
+    min-height: 100vh;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../1.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.parrafo{
+    margin: 130px 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: white;
+}
+.imagenes, .imagenes2{
+    margin: 100px 0;
+}
+.imagenes img, .imagenes2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: solid white 2px;
+    margin: 5px 0;
+    box-shadow:  0 0 10px #B09CD2, 0 0 40px #B09CD2, 0 0 80px #B09CD2;
+}
+.imagenes img:hover, .imagenes2 img:hover{
+    transform: scale(1.1);
+}

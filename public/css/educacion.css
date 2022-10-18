@@ -1,0 +1,45 @@
+#tbaaa {
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(5, 7, 12, 0.5);
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    box-shadow:  0 0 10px #B09CD2, 0 0 40px #B09CD2, 0 0 80px #B09CD2;
+    width: 50%;
+    background: rgb(93, 0, 240);
+    background: linear-gradient(90deg, rgba(93, 0, 240, 1) 35%, rgba(89, 10, 241, 1) 38%, rgba(179, 0, 255, 1) 100%);
+    border-radius: 20px;
+}
+table tr th{
+    padding: 10px 0;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+}
+table tr td{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: 20px 20px;
+}
+.foto{
+    position: absolute;
+    top: 110px;
+    left: 230px;
+}
+.foto img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 2px #5D00FF;
+}

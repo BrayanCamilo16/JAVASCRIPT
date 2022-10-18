@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Roboto+Slab&display=swap');
+footer{
+    background-color: #5D00FF;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    border: solid black 1px;
+}
+footer .pie{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie .nosotros{
+    text-align: center;
+    padding: 0 20px;
+}
+.pie .nosotros h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie .nosotros p{
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.pie .redes h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie .redes a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-left: 18px;
+    text-align: center;
+}
+.pie .redes a:hover{
+    color: aqua;
+}
+.pie .elaborado{
+    text-align: center;
+    color: #efefef;
+    font-size: 20px;
+}
+.pie .elaborado h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+footer .pagina{
+    font-size: 20px;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    border-top: solid 1px black;
+}
+@media screen and (max-width:800px) {
+    footer .pie{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 30px 0px;
+    }
+}
